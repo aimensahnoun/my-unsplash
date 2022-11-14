@@ -6,7 +6,7 @@ const PageLayout = () => {
     const [searchQuery] = useAtom(searchQueryAtom)
     return <main className='mt-4 w-full overflow-scroll columns-3 gap-4 '>
         {
-            images.reverse().filter((image) => image.name.toLowerCase().includes(searchQuery.toLowerCase())).map((image, index) => {
+            images.filter((image) => image.name.toLowerCase().includes(searchQuery.toLowerCase())).map((image, index) => {
                 // eslint-disable-next-line @next/next/no-img-element
                 return <div key={index} className="w-fit h-fit relative">
                     <img src={image.url} alt={image.name} className="rounded-lg aspect-auto max-w-[25rem] my-1" />
