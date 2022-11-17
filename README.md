@@ -6,7 +6,6 @@ The images are inputed by the user and stored with a title on the user's localst
 User can `add` , `view` , and `delete` images.
 
 ![HomeScreen](https://user-images.githubusercontent.com/62159014/202555292-69c0c232-d0cc-4738-b4d2-9c930db688dd.png)
-![Screenshot 2022-11-17 at 21 10 14](https://user-images.githubusercontent.com/62159014/202555292-69c0c232-d0cc-4738-b4d2-9c930db688dd.png)
 
 ## Run Locally
 
